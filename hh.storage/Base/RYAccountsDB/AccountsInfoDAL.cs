@@ -9,6 +9,7 @@
 
 using System;
 using System.Linq;
+using com.xbao.db.core;
 using com.xbao.db.storage;
 
 namespace hh.storage.RYAccountsDB
@@ -20,6 +21,7 @@ namespace hh.storage.RYAccountsDB
     {
         public AccountsInfoDAL() : base("RYAccountsDB")
         {
+            base.DbTable.EType = EDbType.MSSQL;
             base.DbTable.Name = "AccountsInfo";
             base.DbTable.PKey = "UserID";
             base.DbTable.AutoNumber = true;//主建是否自增，如果不自增插入的时候要赋值

@@ -27,7 +27,6 @@ namespace com.xbao.db.storage
         {
             this.DbTable = new core.GenericDbTable();
             this.DbTable.EType = core.EDbType.MYSQL;
-            this.DbTable.EType = core.EDbType.MSSQL;
         }
         #endregion
 
