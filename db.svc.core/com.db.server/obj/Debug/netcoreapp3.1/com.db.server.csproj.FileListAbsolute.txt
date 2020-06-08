@@ -1,0 +1,10 @@
+C:\Users\ZGZ\Desktop\WebAPI\db.svc.core\dblibs\Debug\netcoreapp3.1\com.db.server.deps.json
+C:\Users\ZGZ\Desktop\WebAPI\db.svc.core\dblibs\Debug\netcoreapp3.1\com.db.server.dll
+C:\Users\ZGZ\Desktop\WebAPI\db.svc.core\dblibs\Debug\netcoreapp3.1\com.db.server.pdb
+C:\Users\ZGZ\Desktop\WebAPI\db.svc.core\com.db.server\obj\Debug\netcoreapp3.1\com.db.server.csprojAssemblyReference.cache
+C:\Users\ZGZ\Desktop\WebAPI\db.svc.core\com.db.server\obj\Debug\netcoreapp3.1\com.db.server.AssemblyInfoInputs.cache
+C:\Users\ZGZ\Desktop\WebAPI\db.svc.core\com.db.server\obj\Debug\netcoreapp3.1\com.db.server.AssemblyInfo.cs
+C:\Users\ZGZ\Desktop\WebAPI\db.svc.core\com.db.server\obj\Debug\netcoreapp3.1\com.db.server.csproj.CoreCompileInputs.cache
+C:\Users\ZGZ\Desktop\WebAPI\db.svc.core\com.db.server\obj\Debug\netcoreapp3.1\com.db.server.csproj.CopyComplete
+C:\Users\ZGZ\Desktop\WebAPI\db.svc.core\com.db.server\obj\Debug\netcoreapp3.1\com.db.server.dll
+C:\Users\ZGZ\Desktop\WebAPI\db.svc.core\com.db.server\obj\Debug\netcoreapp3.1\com.db.server.pdb

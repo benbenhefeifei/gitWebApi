@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>com.xbao.db.server</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\dblibs\Debug</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\dblibs\Release</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.db.storage\com.db.storage.csproj" />
+    <ProjectReference Include="..\..\ex.tools\com.tools.logger\com.tools.logger.csproj" />
+  </ItemGroup>
+</Project>

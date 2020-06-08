@@ -1,0 +1,13 @@
+C:\Users\ZGZ\Desktop\WebAPI\hh.model\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\ZGZ\Desktop\WebAPI\hh.model\bin\Debug\netcoreapp3.1\hh.model.deps.json
+C:\Users\ZGZ\Desktop\WebAPI\hh.model\bin\Debug\netcoreapp3.1\hh.model.dll
+C:\Users\ZGZ\Desktop\WebAPI\hh.model\bin\Debug\netcoreapp3.1\hh.model.pdb
+C:\Users\ZGZ\Desktop\WebAPI\hh.model\obj\Debug\netcoreapp3.1\hh.model.csprojAssemblyReference.cache
+C:\Users\ZGZ\Desktop\WebAPI\hh.model\obj\Debug\netcoreapp3.1\hh.model.AssemblyInfoInputs.cache
+C:\Users\ZGZ\Desktop\WebAPI\hh.model\obj\Debug\netcoreapp3.1\hh.model.AssemblyInfo.cs
+C:\Users\ZGZ\Desktop\WebAPI\hh.model\obj\Debug\netcoreapp3.1\hh.model.csproj.CoreCompileInputs.cache
+C:\Users\ZGZ\Desktop\WebAPI\hh.model\obj\Debug\netcoreapp3.1\hh.model.RazorTargetAssemblyInfo.cache
+C:\Users\ZGZ\Desktop\WebAPI\hh.model\obj\Debug\netcoreapp3.1\staticwebassets\hh.model.StaticWebAssets.Manifest.cache
+C:\Users\ZGZ\Desktop\WebAPI\hh.model\obj\Debug\netcoreapp3.1\staticwebassets\hh.model.StaticWebAssets.xml
+C:\Users\ZGZ\Desktop\WebAPI\hh.model\obj\Debug\netcoreapp3.1\hh.model.dll
+C:\Users\ZGZ\Desktop\WebAPI\hh.model\obj\Debug\netcoreapp3.1\hh.model.pdb

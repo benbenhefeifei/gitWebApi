@@ -1,0 +1,9 @@
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\reflib\Debug\netcoreapp3.1\com.tools.security.deps.json
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\reflib\Debug\netcoreapp3.1\com.tools.security.dll
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\reflib\Debug\netcoreapp3.1\com.tools.security.pdb
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\com.tools.security\obj\Debug\netcoreapp3.1\com.tools.security.AssemblyInfoInputs.cache
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\com.tools.security\obj\Debug\netcoreapp3.1\com.tools.security.AssemblyInfo.cs
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\com.tools.security\obj\Debug\netcoreapp3.1\com.tools.security.csproj.CoreCompileInputs.cache
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\com.tools.security\obj\Debug\netcoreapp3.1\com.tools.security.dll
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\com.tools.security\obj\Debug\netcoreapp3.1\com.tools.security.pdb
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\com.tools.security\obj\Debug\netcoreapp3.1\com.tools.security.csprojAssemblyReference.cache

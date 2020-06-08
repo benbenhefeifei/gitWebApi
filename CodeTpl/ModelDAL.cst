@@ -1,0 +1,71 @@
+﻿<%@ CodeTemplate Language="C#" TargetLanguage="C#" ResponseEncoding="UTF-8" Description="Generates a single entity business class." Debug="True" %>
+<%@ Property Name="Table" Type="TableSchema" Optional="False" DeepLoad="True" Category="Optional" Description="If true, the template will not output using and namespace statements." %>
+<%@ Assembly Name="SchemaExplorer" %>
+<%@ Import Namespace="SchemaExplorer" %>
+<%@ Property Name="库名" Type="System.String" %>
+/***********************************************
+* 版权声明：2017-2020 
+* 作    者：技术总监CTO => 吴文吉
+* 功能描述：<%=Table.Description %> - 数据仓储服务（可扩展）
+* 创建时间：<%=DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") %>
+* 更新历史：日期 - 姓名 - 功能（日期倒序）
+* GOTO：<%=DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") %> == wuwenji == 创建 == <%=Table.Description %> - 数据仓储服务
+* *********************************************/
+
+using System;
+using System.Linq;
+using com.xbao.db.storage;
+
+namespace hh.storage.<%=(库名) %>
+{
+    /// <summary>
+    /// <%=Table.Description %> - 数据仓储服务（可扩展）
+    /// </summary>
+    public partial class <%=GetTableName(Table.Name)%>DAL : GenericRepository<model.<%=(库名) %>.<%=GetTableName(Table.Name)%>>, IRepository<model.<%=(库名) %>.<%=GetTableName(Table.Name)%>>
+    {
+        public <%=GetTableName(Table.Name)%>DAL() : base("<%=库名 %>")
+        {
+            base.DbTable.Name = "<%=Table.Name%>";
+            base.DbTable.PKey = "<%=Table.PrimaryKey.MemberColumns[0].Name%>";
+            base.DbTable.AutoNumber = <%= Table.Columns.Find(c=>c.IsPrimaryKeyMember&&c.ExtendedProperties["CS_IsIdentity"].Value.ToString()=="False")==null?"true":"false"%>;//主建是否自增，如果不自增插入的时候要赋值
+            base.DbTable.Fields = "<%= GetCol() %>".Split(',').ToList();
+        }
+    }
+}
+
+<script runat="template">
+private string GetTableName(string v)
+{
+    string a = v.Remove(0, v.IndexOf("_") + 1).Replace("_", "");
+    a = a.Substring(0, 1).ToUpper() + a.Substring(1);
+    //if (a.EndsWith("Info")){ a = a.Substring(0,a.Length-4); }
+    return a;
+}
+
+private string GetCol()
+{
+    string sql="";
+    int i=0;
+    foreach(var m in Table.Columns)
+    {
+        if(!m.IsPrimaryKeyMember)
+        {
+             if(i>0)
+            {
+                sql+=",["+m.Name+"]";
+            }
+            else
+            {
+                sql+="["+m.Name+"]";
+            }
+            if(m.NativeType=="geography")
+            {
+                sql+=".ToString()"+m.Name;
+            }
+            i++; 
+       }
+       
+    }    
+    return sql;
+}
+</script>

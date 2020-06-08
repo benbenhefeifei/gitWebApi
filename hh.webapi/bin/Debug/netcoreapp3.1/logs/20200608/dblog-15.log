@@ -1,0 +1,6 @@
+2020-06-08 15:21:16.190 [12] INFO DBLogAdapter ：DbReader.Find.SqlCmd ---- SELECT * FROM AccountsInfo WHERE `UserID`=@UserID ORDER BY UserID DESC LIMIT 1 
+2020-06-08 15:21:16.194 [12] INFO DBLogAdapter ：DbReader.Find.SqlParams ---- {"UserID":"1"} 
+2020-06-08 15:21:24.246 [12] INFO DBLogAdapter ：DbReader.Find.SqlCmd ---- SELECT * FROM AccountsInfo WHERE `UserID`=@UserID ORDER BY UserID DESC LIMIT 1 
+2020-06-08 15:21:24.247 [12] INFO DBLogAdapter ：DbReader.Find.SqlParams ---- {"UserID":"1"} 
+2020-06-08 15:26:56.657 [10] INFO DBLogAdapter ：DbReader.Find.SqlCmd ---- SELECT TOP 1 * FROM AccountsInfo WHERE [UserID]=@UserID ORDER BY UserID DESC 
+2020-06-08 15:26:56.660 [10] INFO DBLogAdapter ：DbReader.Find.SqlParams ---- {"UserID":"1"} 

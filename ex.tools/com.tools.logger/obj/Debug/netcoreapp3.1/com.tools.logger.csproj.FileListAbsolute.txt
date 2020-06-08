@@ -1,0 +1,9 @@
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\reflib\Debug\netcoreapp3.1\com.tools.logger.deps.json
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\reflib\Debug\netcoreapp3.1\com.tools.logger.dll
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\reflib\Debug\netcoreapp3.1\com.tools.logger.pdb
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\com.tools.logger\obj\Debug\netcoreapp3.1\com.tools.logger.csprojAssemblyReference.cache
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\com.tools.logger\obj\Debug\netcoreapp3.1\com.tools.logger.AssemblyInfoInputs.cache
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\com.tools.logger\obj\Debug\netcoreapp3.1\com.tools.logger.AssemblyInfo.cs
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\com.tools.logger\obj\Debug\netcoreapp3.1\com.tools.logger.csproj.CoreCompileInputs.cache
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\com.tools.logger\obj\Debug\netcoreapp3.1\com.tools.logger.dll
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\com.tools.logger\obj\Debug\netcoreapp3.1\com.tools.logger.pdb

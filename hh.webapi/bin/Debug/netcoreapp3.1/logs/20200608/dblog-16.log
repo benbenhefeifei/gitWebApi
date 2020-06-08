@@ -1,0 +1,2 @@
+2020-06-08 16:02:58.799 [5] INFO DBLogAdapter ：DbReader.Filter.SqlCmd ---- SELECT * FROM AccountsInfo  ORDER BY UserID DESC OFFSET 0 ROW FETCH NEXT 20 ROWS ONLY 
+2020-06-08 16:02:58.820 [5] INFO DBLogAdapter ：DbReader.Filter.SqlParams ---- {} 

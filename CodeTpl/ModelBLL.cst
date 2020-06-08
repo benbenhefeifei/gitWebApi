@@ -1,0 +1,95 @@
+﻿<%@ CodeTemplate Language="C#" TargetLanguage="C#" ResponseEncoding="UTF-8" Description="Generates a single entity business class." Debug="True" %>
+<%@ Property Name="Table" Type="TableSchema" Optional="False" DeepLoad="True" Category="Optional" Description="If true, the template will not output using and namespace statements." %>
+<%@ Assembly Name="SchemaExplorer" %>
+<%@ Import Namespace="SchemaExplorer" %>
+<%@ Property Name="库名" Type="System.String" %>
+/***********************************************
+* 版权声明：2020-2020 
+* 编写作者：CTO => 吴文吉
+* 功能描述：<%=Table.Description %> - 业务逻辑服务（可扩展）
+* 创建时间：<%=DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") %>
+* 更新历史：日期 - 姓名 - 功能（日期倒序）
+* GOTO：<%=DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") %> == wuwenji == 创建 == <%=Table.Description %> - 业务逻辑服务
+* *********************************************/
+
+using System;
+using System.Collections.Generic;
+using com.xbao.db.server;
+
+namespace hh.server.<%=(库名) %>
+{
+    /// <summary>
+    /// <%=Table.Name + " --- " + Table.Description %> - 业务逻辑服务（分部类-主类）
+    /// </summary>
+    public partial class <%=GetTableName(Table.Name)%>BLL : GenericService<model.<%=(库名) %>.<%=GetTableName(Table.Name)%>>, IService<model.<%=(库名) %>.<%=GetTableName(Table.Name)%>>
+    {
+        /// <summary>
+        /// 初始化 <%=Table.Name + " --- " + Table.Description %> 业务逻辑服务
+        /// </summary>
+        public <%=GetTableName(Table.Name)%>BLL() : base(new hh.storage.<%=库名 %>.<%=GetTableName(Table.Name)%>DAL())
+        { 
+            //base.Storage.DbTable.Name = "<%=Table.Name%>";
+            //base.Storage.DbTable.PKey = "<%=Table.PrimaryKey.MemberColumns[0].Name%>";
+            //base.Storage.DbTable.AutoNumber = <%= Table.Columns.Find(c=>c.IsPrimaryKeyMember&&c.ExtendedProperties["CS_IsIdentity"].Value.ToString()=="False")==null?"true":"false"%>;
+            //base.Storage.DbTable.Fields = "<%= GetCol() %>".Split(',').ToList();
+        }
+        
+        #region 使用单例设计模式 获取服务对象
+        static <%=GetTableName(Table.Name)%>BLL _Instance = null;
+        static readonly object _lock = new object();
+        public static <%=GetTableName(Table.Name)%>BLL Instance
+        {
+            get
+            {
+                if (_Instance == null)
+                {
+                    lock (_lock)
+                    {
+                        if (_Instance == null)
+                        {
+                            _Instance = new <%=GetTableName(Table.Name)%>BLL();
+                        }
+                    }
+                }
+                return _Instance;
+            }
+        }
+        #endregion
+    }
+}
+
+<script runat="template">
+private string GetTableName(string v)
+{
+    string a = v.Remove(0, v.IndexOf("_") + 1).Replace("_", "");
+    a = a.Substring(0, 1).ToUpper() + a.Substring(1);
+    //if (a.EndsWith("Info")){ a = a.Substring(0,a.Length-4); }
+    return a;
+}
+private string GetCol()
+{
+    string sql="";
+    int i=0;
+    foreach(var m in Table.Columns)
+    {
+        if(!m.IsPrimaryKeyMember)
+        {
+             if(i>0)
+            {
+                sql+=",["+m.Name+"]";
+            }
+            else
+            {
+                sql+="["+m.Name+"]";
+            }
+            if(m.NativeType=="geography")
+            {
+                sql+=".ToString()"+m.Name;
+            }
+            i++; 
+       }
+       
+    }    
+    return sql;
+}
+</script>

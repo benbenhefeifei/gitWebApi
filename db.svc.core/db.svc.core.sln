@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.db.core", "com.db.core\com.db.core.csproj", "{68910245-08A3-4718-A68C-A556B96FA0B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.db.server", "com.db.server\com.db.server.csproj", "{1363C1AC-AEC3-4DDA-9B99-C5F5967F67FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.db.storage", "com.db.storage\com.db.storage.csproj", "{820B82CD-8DA4-4D45-9306-B655E98964BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68910245-08A3-4718-A68C-A556B96FA0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68910245-08A3-4718-A68C-A556B96FA0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68910245-08A3-4718-A68C-A556B96FA0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68910245-08A3-4718-A68C-A556B96FA0B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1363C1AC-AEC3-4DDA-9B99-C5F5967F67FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1363C1AC-AEC3-4DDA-9B99-C5F5967F67FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1363C1AC-AEC3-4DDA-9B99-C5F5967F67FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1363C1AC-AEC3-4DDA-9B99-C5F5967F67FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{820B82CD-8DA4-4D45-9306-B655E98964BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820B82CD-8DA4-4D45-9306-B655E98964BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820B82CD-8DA4-4D45-9306-B655E98964BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820B82CD-8DA4-4D45-9306-B655E98964BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

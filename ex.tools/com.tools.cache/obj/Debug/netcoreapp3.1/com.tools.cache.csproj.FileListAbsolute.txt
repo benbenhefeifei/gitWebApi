@@ -1,0 +1,9 @@
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\reflib\Debug\netcoreapp3.1\com.tools.cache.deps.json
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\reflib\Debug\netcoreapp3.1\com.tools.cache.dll
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\reflib\Debug\netcoreapp3.1\com.tools.cache.pdb
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\com.tools.cache\obj\Debug\netcoreapp3.1\com.tools.cache.csprojAssemblyReference.cache
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\com.tools.cache\obj\Debug\netcoreapp3.1\com.tools.cache.AssemblyInfoInputs.cache
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\com.tools.cache\obj\Debug\netcoreapp3.1\com.tools.cache.AssemblyInfo.cs
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\com.tools.cache\obj\Debug\netcoreapp3.1\com.tools.cache.csproj.CoreCompileInputs.cache
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\com.tools.cache\obj\Debug\netcoreapp3.1\com.tools.cache.dll
+C:\Users\ZGZ\Desktop\WebAPI\ex.tools\com.tools.cache\obj\Debug\netcoreapp3.1\com.tools.cache.pdb

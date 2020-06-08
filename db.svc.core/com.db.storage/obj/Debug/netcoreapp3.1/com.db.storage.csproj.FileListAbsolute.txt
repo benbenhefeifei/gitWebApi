@@ -1,0 +1,10 @@
+C:\Users\ZGZ\Desktop\WebAPI\db.svc.core\dblibs\Debug\netcoreapp3.1\com.db.storage.deps.json
+C:\Users\ZGZ\Desktop\WebAPI\db.svc.core\dblibs\Debug\netcoreapp3.1\com.db.storage.dll
+C:\Users\ZGZ\Desktop\WebAPI\db.svc.core\dblibs\Debug\netcoreapp3.1\com.db.storage.pdb
+C:\Users\ZGZ\Desktop\WebAPI\db.svc.core\com.db.storage\obj\Debug\netcoreapp3.1\com.db.storage.csprojAssemblyReference.cache
+C:\Users\ZGZ\Desktop\WebAPI\db.svc.core\com.db.storage\obj\Debug\netcoreapp3.1\com.db.storage.AssemblyInfoInputs.cache
+C:\Users\ZGZ\Desktop\WebAPI\db.svc.core\com.db.storage\obj\Debug\netcoreapp3.1\com.db.storage.AssemblyInfo.cs
+C:\Users\ZGZ\Desktop\WebAPI\db.svc.core\com.db.storage\obj\Debug\netcoreapp3.1\com.db.storage.csproj.CoreCompileInputs.cache
+C:\Users\ZGZ\Desktop\WebAPI\db.svc.core\com.db.storage\obj\Debug\netcoreapp3.1\com.db.storage.csproj.CopyComplete
+C:\Users\ZGZ\Desktop\WebAPI\db.svc.core\com.db.storage\obj\Debug\netcoreapp3.1\com.db.storage.dll
+C:\Users\ZGZ\Desktop\WebAPI\db.svc.core\com.db.storage\obj\Debug\netcoreapp3.1\com.db.storage.pdb
