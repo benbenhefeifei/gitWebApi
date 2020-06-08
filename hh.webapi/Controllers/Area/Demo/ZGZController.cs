@@ -9,7 +9,7 @@ namespace hh.webapi.Controllers.Area.Demo
 {
     public class ZGZController : Controller
     {
-        // GET: ZGZController
+        // GET: ZGZController zgz
         public ActionResult Index()
         {
             return View();
@@ -74,6 +74,7 @@ namespace hh.webapi.Controllers.Area.Demo
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)
         {
+            int x = 1;
             try
             {
                 return RedirectToAction(nameof(Index));
@@ -82,6 +83,7 @@ namespace hh.webapi.Controllers.Area.Demo
             {
                 return View();
             }
+            
         }
     }
 }

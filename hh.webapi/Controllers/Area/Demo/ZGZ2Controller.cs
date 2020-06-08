@@ -12,6 +12,8 @@ namespace hh.webapi.Controllers.Area.Demo
         // GET: ZGZ2Controller
         public ActionResult Index()
         {
+            int x = 1;
+            x -= 2;
             return View();
         }
 
